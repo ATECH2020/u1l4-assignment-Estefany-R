@@ -12,7 +12,12 @@ class AnalogClock {
         /*
          *  your code goes here
          */
-         int Hour = startTime / 30
+         int hour = startTime / 30;
+         int pastd = hour * 30;
+         int minPast = startTime - pastd;
+         int finalDegree = (30 - minPast) * 6;
+
+         System.out.print(finalDegree);
 
         // closing the scanner object
         scanner.close();
