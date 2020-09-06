@@ -12,9 +12,8 @@ class AnalogClock {
         /*
          *  your code goes here
          */
-         
 
-         int finalDegree = (startTime % 60) * 12;
+         int finalDegree = (startTime % 30) * 12;
 
          System.out.print(finalDegree);
 
