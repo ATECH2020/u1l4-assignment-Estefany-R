@@ -12,12 +12,7 @@ class AnalogClock {
         /*
          *  your code goes here
          */
-         
-         int newNum1 = startTime % 30;
-         int finalNum = newNum1  * 12;
-
-
-          System.out.println(finalNum);
+         int Hour = startTime / 30
 
         // closing the scanner object
         scanner.close();
